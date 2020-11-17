@@ -1,0 +1,143 @@
+html,
+body {
+    margin          : 0;
+    padding         : 0;
+    font-family     : Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display        : flex;
+    position       : absolute;
+    width          : 100%;
+    height         : 100%;
+    flex-flow      : column nowrap;
+    align-items    : center;
+    justify-content: center;
+}
+
+.container .title {
+    font-size: 35px;
+    color    : white;
+}
+
+
+.container .buttons>#btnno {
+    margin-left: 70px;
+}
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family:sans-serif;
+	}
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--BARRA DE NAVEGACIÓN--*/
+
+nav{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:45px;
+	border-bottom:1px solid #bcd1cb;
+	background:url(../img/nav.jpg);
+	}
+	
+nav ul{
+	position:absolute;
+	top:0;
+	left:0;
+	width:500px;
+	height:45px;
+	}
+	
+nav ul li{
+	float:left;
+	width:124px;
+	line-height:45px;
+	text-align:center;
+	font-size:14px;
+	color:white;
+	border-right:1px solid #bcd1cb;
+	}
+	
+/*--FIN BARRA DE NAVEGACIÓN--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--SLIDE--*/
+
+#slide{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:301px;
+	}
+	
+/*--FIN SLIDE--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--BOTONERA SLIDE--*/
+
+#botoneraSlide{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:26px;
+	background:url(../img/backBotonesSlide.jpg);
+	}
+	
+#botoneraSlide ul{
+	position:relative;
+	margin:auto;
+	width:100px;
+	height:26px;
+	}
+	
+#botoneraSlide ul li{
+	float:left;
+	width:10px;
+	height:10px;
+	border-radius:100%;
+	background:#232d80;	
+	border:3px solid white;
+	margin:3px 2px;
+	}
+	
+/*--FIN BOTONERA SLIDE--*/
+/*-------------------------------*/	
+/*-------------------------------*/
+/*--SECTION INICIO--*/
+
+section#inicio{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:299px;
+	background:white;
+	}
+	
+section#inicio ul li{
+	float:left;
+	width:333px;
+	height:299px;
+	}
+	
+section#inicio ul li h1{
+	margin:23px 27px;
+	font-weight:100;
+	font-size:25px;
+	}
+	
+section#inicio ul li p{
+	margin:23px 28px;
+	font-size:15px;
+	}
+	
+section#inicio ul li img{
+	margin:1px 29px;
+	width:273px;
+	height:83px;
+	background:silver;	
+	}
